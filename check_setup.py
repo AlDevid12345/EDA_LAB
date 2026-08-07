@@ -14,6 +14,6 @@ print("matplotlib:", matplotlib.__version__) # a one-line smoke test of the plot
 print("My roll number : 25EC01004")
 plt.plot([0, 1, 2, 3], [0, 1, 4, 9], marker="o") 
 plt.title("If you can see this window, the setup works") 
-plt.xlabel("x"); plt.ylabel("x squared") 
+plt.xlabel("x [change 2]"); plt.ylabel("x squared") 
 plt.grid(True) 
 plt.show() 
