@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 
-print("A new print statement is added. change 1]")
+print("A new print statement is added. [change 1]")
 print("Python :", sys.version.split()[0]) 
 print("numpy :", np.__version__ )
 print("pandas :", pd.__version__ ) 
