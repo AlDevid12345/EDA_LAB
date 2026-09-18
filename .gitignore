@@ -1,0 +1,5 @@
+
+
+#EDA / simulator artefacts
+*.log
+*.out
