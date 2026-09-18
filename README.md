@@ -39,10 +39,3 @@ Contains semiconductor device simulations and analysis performed using **Synopsy
 * Matplotlib
 * Synopsys Sentaurus TCAD
 * Git / GitHub
-
-## Author
-
-**Devmallya Ray**
-
-Electronics and Communication Engineering
-IIT Bhubaneswar
