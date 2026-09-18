@@ -1,0 +1,2 @@
+Output Conductance (gₒ) at VGS = 1.5 V : 0.258 mS·μm
+Output Resistance  (rₒ) at VGS = 1.5 V  : 3.880 kΩ/μm

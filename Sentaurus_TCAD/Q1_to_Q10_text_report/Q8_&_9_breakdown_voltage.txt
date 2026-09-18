@@ -1,0 +1,5 @@
+Q8) Without bulk:
+    Breakdown voltage =  0.056705958931 V at I = 1e-6 A
+
+Q9) With bulk:
+    Breakdown voltage =  0.204382799742 V at I = 1e-6 A

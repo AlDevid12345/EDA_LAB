@@ -1,0 +1,9 @@
+Id_on:  V_DS = 0.4 V, V_GS = 1.5 V
+Id_off: V_DS = 0.4 V, V_GS = 0 V
+
+tox (nm)    	Id_on (A)       	  	Id_off (A)      		V_TH (V)    V_Breakdown (V)
+----------------------------------------------------------------------------------------------
+5 nm       		0.00030358012555		9.01525057115e-06		0.515       0.056706
+2.932 nm   		0.000542179570156		9.65230953918e-06      	0.402*      0.043834
+
+* V_TH was obtained using tox = 3.5 nm because tox = 2.932 nm caused a convergence issue.

@@ -1,0 +1,1 @@
+Note: A convergence issue was encountered after removing E_normal. Therefore, the corresponding plot has been excluded from the analysis.

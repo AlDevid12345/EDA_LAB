@@ -1,0 +1,1 @@
+Total Vertex Count = 4896 
