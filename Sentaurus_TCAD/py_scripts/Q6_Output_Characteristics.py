@@ -45,7 +45,7 @@ ax[0].set_xlabel(
     r'$V_{DS}$,  (V) $\longrightarrow$'
 )
 ax[0].set_ylabel(
-    r'$I_D$,  (mA) $\longrightarrow$'
+    r'$I_D$,  ($mA/ \mu m$) $\longrightarrow$'
 )
 
 
@@ -72,7 +72,7 @@ ax[1].set_xlabel(
     r'$V_{DS}$,  (V) $\longrightarrow$'
 )
 ax[1].set_ylabel(
-    r'$g_D$,  (mS) $\longrightarrow$'
+    r'$g_D$,  ($mS \cdot \mu m$) $\longrightarrow$'
 )
 
 g_o = (dI_d_dV_d[df[v_gs[1.5][0]] == 3])[0]

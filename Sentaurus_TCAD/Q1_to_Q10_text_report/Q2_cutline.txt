@@ -1,10 +1,10 @@
 
 Horizontal Cutline:
 
-Channel length from plot = 0.035249 μm
+Channel length from plot = 0.035279 μm
 Channel length from TDR figure = 0.0358647 μm
 
 
 Vertical Cutline:
 
-Peak doping concentration = 9.9939921e19 cm^-3
+Peak doping concentration = 2.71e18 cm^-3

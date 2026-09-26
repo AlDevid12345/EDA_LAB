@@ -8,17 +8,24 @@ fig, ax = plt.subplots(
     1, 
     figsize=(15, 5.345)
 )
-
 #For setting up the figure to show all the plots
 manager = plt.get_current_fig_manager()
 manager.window.state(
     'zoomed'
 )
+
+
 peak_doping_conc = 0
+peak_doping_conc = abs(min(df['DopingConcentration_vertical Y']))
+df['DopingConcentration_vertical Y'] = abs( df['DopingConcentration_vertical Y'])
+print(df['DopingConcentration_vertical Y'])
 #Plotting
+
+x = df['DopingConcentration_vertical X']
+y = df['DopingConcentration_vertical Y']
 plt.plot(
-    df['DopingConcentration_vertical X'],
-    df['DopingConcentration_vertical Y']/1e20,
+    x[x >= 0.076],
+    y[x >= 0.076]/1e18,
     linewidth=2,
 )
 
@@ -26,15 +33,15 @@ plt.xlabel(
     r'x,  ($\mu$m) $\longrightarrow$'
 )
 plt.ylabel(
-    r'Doping concentration  ($10^{20}\,\mathrm{cm}^{-3}$) $\longrightarrow$'
+    r'Doping concentration  ($10^{18}\,\mathrm{cm}^{-3}$) $\longrightarrow$'
 )
 plt.title(
     r'Vertical Cutline',
 )
 
 
-peak_doping_conc=max(df['DopingConcentration_vertical Y'])
-#print(peak_doping_conc)
+
+# print(abs(peak_doping_conc))
 
 plt.text(
     0,-0.18,
@@ -47,7 +54,7 @@ plt.text(
 plt.text(
     0,-0.3,
     f'Peak doping concentration: '
-    f'${peak_doping_conc/1e19:1.3f} \\times 10^{{19}}$ $cm^{{-3}}$',
+    f'${peak_doping_conc/1e18:1.3f} \\times 10^{{18}}$ $cm^{{-3}}$',
     ha='left',
     va='bottom',
     fontsize=9,
@@ -69,8 +76,8 @@ plt.grid(
 )
 
 plt.tight_layout()
-plt.savefig(
-    'Q2_vertical_cutline.png',
-    dpi = 300
-)
+# plt.savefig(
+#     'Q2_vertical_cutline.png',
+#     dpi = 300
+# )
 plt.show()

@@ -3,6 +3,6 @@ At Vg = 3 V:
 Id (1 nm refinement) = 1.1419e-3 A      [Vg = 3V]
 Id (no refinement)   = 1.15997e-3 A     [Vg = 3V]
 
-Percentage change = 1.129%
+Percentage change = 1.56%
 
 Note: The 0.3 nm refinement case was excluded due to a convergence issue.
