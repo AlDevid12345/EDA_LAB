@@ -123,5 +123,5 @@ plt.tight_layout()
 # )
 plt.show()
 
-print(f'g_o = {g_o} S')
-print(f'r_o = {1/g_o*1e-3} kOhm/micrometer')
+# print(f'g_o = {g_o} S')
+# print(f'r_o = {1/g_o*1e-3} kOhm/micrometer')
